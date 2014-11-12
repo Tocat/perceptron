@@ -17,8 +17,6 @@ public class Pertron {
 		try {
 			 readerranking = new BufferedReader(new FileReader(new File(url)));
 			// 563/626/299
-			//readerranking = new BufferedReader(new FileReader(new File(
-			//		"/Users/Tony/Desktop/data.txt")));
 			String line = null;
 
 			int j = 0;

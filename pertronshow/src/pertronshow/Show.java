@@ -72,18 +72,7 @@ public class Show implements ActionListener {
     Container con = new Container();
     JLabel label1 = new JLabel("DATAfile");  
     JLabel label2 = new JLabel("feature9"); 
-    //JLabel label5 = new JLabel("outputdir"); 
-    //JLabel label3 = new JLabel("dimension");
     
-    //JLabel label4 = new JLabel("coordinate");
-    //JLabel label41 = new JLabel("1");
-    //JTextField text41 = new JTextField();
-    //JLabel label42 = new JLabel("2");
-    //JTextField text42 = new JTextField();
-    //JLabel label43 = new JLabel("3");
-    //JTextField text43 = new JTextField();
-    //JLabel label44 = new JLabel("4");
-    //JTextField text44 = new JTextField();
     JLabel label3 = new JLabel("feature1");
     JTextField text3 = new JTextField();
     JLabel label4 = new JLabel("feature2");
@@ -137,9 +126,7 @@ public class Show implements ActionListener {
     JLabel labeljz4_1 = new JLabel("negative-perceptron");
     JTextField textjz4_2 = new JTextField();
     JTextField textjz4_3 = new JTextField();
-    //JTextField text2 = new JTextField();
     
-    private JFrame frmTesttitle2;
     
     String trainDatares[][];
       
@@ -324,28 +311,6 @@ public class Show implements ActionListener {
         	textjz4_3.setText(res[20]);
         	
         }
-        
-          
-            
-        	
-        	
-        	
-        	
-        	//String[] test2={text41.getText(),text42.getText(),text43.getText(),text44.getText()};
-            //trainDatares=KNN.run(text1.getText(), text2.getText(),text5.getText());
-           
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-        	
          
     } 
     
